@@ -170,7 +170,7 @@ jobs:
           extensions: mbstring, intl, json, imagick
 
       - name: Download Phalcon Pecl Package
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: phalcon-pecl
 
@@ -320,7 +320,7 @@ jobs:
             ${{ runner.os }}-composer-
 
       - name: Download Phalcon Pecl Package
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: phalcon-pecl
 
@@ -449,7 +449,7 @@ jobs:
             ${{ runner.os }}-composer-
 
       - name: Download Phalcon Pecl Package
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: phalcon-pecl
 
